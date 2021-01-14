@@ -1,0 +1,111 @@
+article
+{
+	display: flex;
+	background-color: rgb(230,230,230);
+	margin: 0px 0px 0px 3px;
+	padding: 5px;
+
+	border-top: 1px solid rgba(150,150,150,0.5);
+	border-bottom: 1px solid rgba(150,150,150,0.5);
+	border-left: 2px solid rgba(150,150,150,0);
+	border-right: 2px solid rgba(150,150,150,0);
+
+	height: 40px;
+}
+
+article:hover
+{
+	border-top: 1px solid rgba(150,150,150,1);
+	border-bottom: 1px solid rgba(150,150,150,1);
+	border-left: 2px solid rgba(150,150,150,0.7);
+	border-right: 2px solid rgba(150,150,150,0.7);
+	background-color: rgb(235,235,235);
+}
+
+article .acc_Name
+{
+	display: flex;
+	align-items: center;
+
+	width: 150px;
+}
+
+article .acc_Priv
+{
+	display: flex;
+	align-items: center;
+}
+
+article .acc_Priv p
+{
+	height: 15px;
+	min-width: 40px;
+	padding: 3px;
+	margin: 3px;
+
+	border: 1px solid rgb(175,175,175);
+	border-radius: 11px;
+	background-color: rgba(175,175,175,0.2);
+
+	font-size: 0.7em;
+	color: rgb(100,100,100);
+	text-align: center;
+}
+
+article .acc_Space
+{
+	flex : 1;
+}
+
+article .acc_Config
+{
+	height: 100%;
+}
+
+article .acc_Config a
+{
+	display: block;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	height: 100%;
+}
+
+article .acc_Config img
+{
+	display: block;
+	height: 80%;
+}
+
+aside
+{
+	width: 100px;
+}
+aside .count
+{
+	display: flex;
+	align-items: center;
+}
+
+aside p
+{
+	height: 15px;
+	
+	margin: 3px;
+
+	font-size: 0.7em;
+	color: rgb(100,100,100);
+	text-align: center;
+}
+
+aside .count_Priv
+{
+	padding: 3px;
+	margin: 5px;
+	
+	min-width: 40px;
+
+	border: 1px solid rgb(175,175,175);
+	border-radius: 11px;
+	background-color: rgba(175,175,175,0.2);
+}

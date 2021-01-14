@@ -1,0 +1,96 @@
+section
+{
+	height: 100%;
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+    align-items: center;
+
+    color: rgb(75,75,75);
+}
+
+#blocEdit
+{
+	margin: 40px;
+	padding: 20px;
+	border: 1px solid rgb(175,175,175);
+	border-radius: 7px;
+	box-shadow: 0px 0px 2px rgb(175,175,175);
+
+	width: 350px;
+}
+
+#blocEdit h2
+{
+	text-align: center;
+
+	margin: 10px;
+	padding: 0px;
+	font-size: 2em
+}
+
+#blocEdit form
+{
+	width: 90%;
+	margin: auto;
+}
+
+#blocEdit p
+{
+	width: 80%;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+}
+
+#blocEdit input
+{
+	margin: auto;
+	font-size: 1em;
+	width: 96%;
+}
+
+#blocEdit label
+{
+	font-size: 0.75em;
+}
+
+#p_Privilege p
+{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#p_Privilege input
+{
+	margin: 5px;
+	width: 15px;
+}
+
+#p_Privilege label
+{
+	font-size: 1em;
+	
+}
+
+
+#InfoError
+{
+	background-color: rgba(255,0,0,0.2);
+	border: 1px solid rgb(255,0,0);
+	text-align: center;
+	padding: 3px;
+}
+
+#InfoValidation
+{
+	background-color: rgba(0,255,0,0.2);
+	border: 1px solid rgb(0,255,0);
+	text-align: center;
+	padding: 3px;
+}
